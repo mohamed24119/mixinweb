@@ -1,1 +1,20 @@
-
+$colors: "white","red","pink","purple","dpurple","indigo","blue","lblue","cyan","teal","green","lgreen","lime","yellow","amber","orange","dorange","brown","gray","bgray","dark";
+$screen_size: 575,576,768,992,1200;
+$screen_name: xs,sm,md,lg,xl;
+$margin: margin,margin-top,margin-right,margin-bottom,margin-left,margin-block,margin-inline,margin-inline-start,margin-inline-end;
+$margin_short: m,mt,mr,mb,ml,my,mx,ms,me;
+$padding:padding,padding-top,padding-right,padding-bottom,padding-left,padding-block,padding-inline,padding-inline-start,padding-inline-end;
+$padding_short:p,pt,pr,pb,pl,py,px,ps,pe;
+$gap: column-gap, row-gap, gap;
+$display: block,contents,flex,grid,inline,inline-block,inline-flex,inline-table,none;
+$position: static, sticky, relative, absolute, fixed;
+$float: inline-end, inline-start, left, right, none;
+$text_decoration: line-through, overline, underline, none;
+$overflow: auto, hidden, overlay, scroll, visible;
+$align_items: normal, stretch, center, start, end;
+$align_content: normal, stretch, center, start, end;
+$align_items:baseline,center,end,start,stretch;
+$justify_content:start,end,right,left,center,space-around,space-between,space-evenly,stretch;
+$flex_direction:column,column-reverse,row,row-reverse;
+$flex_wrap:nowrap,wrap,wrap-reverse;
+$text_aling:start,right,center,end,left,justify;
