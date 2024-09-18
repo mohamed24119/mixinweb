@@ -1,1 +1,7 @@
-
+.alert,.ch-alert>*,.gch-alert>*>* {
+    position: relative;
+    padding: var(--size3) var(--size4);
+    margin-bottom: var(--size4);
+    border-radius: var(--size1);
+    border-inline-start: 4px solid;
+}
