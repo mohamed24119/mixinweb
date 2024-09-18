@@ -1,0 +1,45 @@
+.accordion-headding {
+    margin: 0;
+    padding: var(--size2) var(--size4);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-headding:after {
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-item.active .accordion-headding:after {
+    transform: rotate(180deg);
+}
+
+.accordion-headding:hover {
+    background-color: var(--white2);
+}
+
+.accordion-item.active .accordion-headding {
+    background-color: var(--blue1);
+}
+
+.accordion-body {
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #dfdfdf;
+}
+
+.accordion-item {
+    border: 1px solid #dfdfdf;
+    margin-top: -1px;
+}
+
+.accordion-item.active .accordion-body {
+    display: block;
+}
